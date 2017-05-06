@@ -23,7 +23,7 @@ We have 3 data files for the analysis
 **Country analysis:**  Understanding which countries have had the most investments in the past. These will be Spark Funds’ favourites as well.
 **Sector analysis:** Understanding the distribution of investments across the 8 main sectors (note that we are interested in the 8 main sectors provided in the mapping file. The 2 files, companies and rounds2, have numerous sub-sector names; hence we will need to map each sub-sector to its main sector).
 
-### Step 1:- Data Cleaning
+##### Data Cleaning
 * Load the two files companies.txt and rounds2.csv into two data frames and name them companies and rounds2 respectively.
 * Replace all the NA values from the raised_amount_usd column of the master frame
 
